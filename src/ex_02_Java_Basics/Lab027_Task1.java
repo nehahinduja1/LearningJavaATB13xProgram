@@ -1,10 +1,10 @@
 package ex_02_Java_Basics;
 
-public class Lab027_Task {
+public class Lab027_Task1 {
     public static void main(String[] args) {
         int a = 9;
         int b = 1;
-        System.out.printf("%d * %d = %d%n" , a, b, a* 1 );
+        System.out.printf("%d * %d = %d%n" , a, b, a*1 );
         System.out.printf("%d * %d = %d%n", a,b+1 , a*2);
         System.out.printf("%d * %d = %d%n", a,b+2 , a*3);
         System.out.printf("%d * %d = %d%n", a,b+3 , a*4);
