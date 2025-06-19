@@ -1,4 +1,4 @@
-package ex_11_While_Loop;
+package ex_11_While;
 
 import java.util.Random;
 import java.util.Scanner;

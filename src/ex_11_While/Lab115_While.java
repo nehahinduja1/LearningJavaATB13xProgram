@@ -1,4 +1,4 @@
-package ex_11_While_Loop;
+package ex_11_While;
 
 public class Lab115_While {
     public static void main (String[] args) {

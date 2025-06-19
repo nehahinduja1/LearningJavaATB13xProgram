@@ -1,8 +1,8 @@
-package ex_11_While_Loop;
+package ex_11_While;
 
 import java.util.Scanner;
 
-public class Lab_121_While_IQ_Factorial {
+public class Lab121_While_IQ_Factorial {
 
         public static void main(String[] args) {
             // Factorial Program

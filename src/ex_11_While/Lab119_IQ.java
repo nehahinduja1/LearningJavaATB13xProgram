@@ -1,6 +1,6 @@
-package ex_11_While_Loop;
+package ex_11_While;
 
-public class Lab_119_IQ {
+public class Lab119_IQ {
     public static void main(String[] args) {
         int i1 = 10;
         while(i1 >= 1) {
