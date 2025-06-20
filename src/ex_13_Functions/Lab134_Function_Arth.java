@@ -22,13 +22,14 @@ public class Lab134_Function_Arth {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the num 1");
+
         int a = 0;
         if(scanner.hasNextInt()) {
             a = scanner.nextInt();
 
         } else {
             System.out.println("Enter the int only");
-            return;
+       return;
 //       System.exit(0);   in place of return
         }
 
@@ -85,6 +86,11 @@ public class Lab134_Function_Arth {
      */
 
     static int div(int a, int b) {
+        if(b == 0) {
+//            System.out.println("B can't be zero");
+        throw new ArithmeticException("B can't be zero!");
+//            System.exit(0)
+        }
         return a / b ;
     }
 
