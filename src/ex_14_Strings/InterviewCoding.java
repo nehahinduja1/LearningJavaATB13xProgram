@@ -37,8 +37,6 @@ public class InterviewCoding {
     }
 
 
-
-
     static String reverseStringSB(String userInput) {
         StringBuilder stringBuilder = new StringBuilder(userInput);
         return stringBuilder.reverse().toString();
