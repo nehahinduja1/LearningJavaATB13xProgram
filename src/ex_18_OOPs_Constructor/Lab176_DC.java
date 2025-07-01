@@ -26,7 +26,7 @@ class Car {    // class name
     String model;
 
     //DC
-    Car() {     // constructor
+    Car() {     // default constructor
         name = "Unknown Car";
         year = 1991;
         model = "XXX";
